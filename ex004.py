@@ -1,9 +1,12 @@
-a = input('Digite algo aqui: ')
-print('O tipo primitivo desse valor é', type(a))
-print('So tem espaços:', a.isspace())
-print('É um número: ', a.isnumeric())
-print('É um alfabeto: ', a.isalpha())
-print('É alphanumerico: ', a.isalnum())
-print('Esta em MAISCULA: ', a.isupper())
-print('Esta em minuscula: ', a.islower())
-print('Esta capitalizada: ', a.istitle())
+a = input("Digite algo: ")
+
+print("É alfabético?", a.isalpha())
+print("É numérico?", a.isnumeric())
+print("É alfanumérico?", a.isalnum())
+print("Só tem espaços?", a.isspace())
+print("Está em maiúsculas?", a.isupper())
+print("Está em minúsculas?", a.islower())
+print("Está capitalizado?", a.istitle())
+
+
+
